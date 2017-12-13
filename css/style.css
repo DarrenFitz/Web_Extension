@@ -1,35 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 body {
-background-image:url("https://source.unsplash.com/category/nature/1600x900");
+/*background-image:url("https://source.unsplash.com/category/ndwadwaffa/1600x900");*/
+background-image:url("https://source.unsplash.com/1600x900/?nature,wallpaper");
 background-repeat:no-repeat;
 height:100%;
 width:auto;
 
 }
-h1{
+
+h2{
 font-family: 'Dosis', sans-serif;
-font-size:2.5em;
+font-size:18px;
 text-align:center;
 color:#fff;
 text-shadow:2px 2px 3px rgba(150,150,150,0.75);
 
 }
+
+h2:before, h2:after {
+	content: ' " ';
+	/*font-size: 2.5em, 100%;*/
+}
+
+h3{
+font-family: 'Dosis', sans-serif;
+font-size: 10px;
+text-align:right;
+color:#fff;
+text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+
+}
+
+
 .quote{
 color:#ffffff;
 text-align:center;
 vertical-align:middle;
-padding:19% 15% 0 15%;
+padding:0 85% 0 0;;
 }
 
 #quoteblock{
 font-family: 'Dosis', sans-serif;
 text-shadow:2px 2px 3px rgba(150,150,150,0.75);
-font-size:2em;
+font-size:1.1em;
+border-radius: 1px;
 }
 
 #author{
 font-family: 'Dosis', sans-serif;
-text-align:center;
+text-align:right;
 color:#fff;
 text-shadow:2px 2px 3px rgba(150,150,150,0.75);
 }
+
+
