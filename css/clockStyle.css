@@ -1,0 +1,40 @@
+/*
+ * ========== Clock Section==========
+ */
+.m-clock {
+	font-size: 128px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+
+	transition: background 0.4s ease;
+	text-align: center;
+	padding: 0 22px 4px;
+
+}
+
+.m-clock .hours {
+	text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+	border-radius: 25px;
+	color: white;
+	opacity: 1;
+	position: relative;
+}
+
+.m-clock .minutes {
+	text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+	border-radius: 25px;
+	color: white;
+	opacity: 0.75;
+}
+
+.m-date {
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+	width: 100%;
+	font-size: 1.75rem;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 2px black;
+}
