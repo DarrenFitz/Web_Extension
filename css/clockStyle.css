@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 /*
- * ========== Clock Section==========
+ * ========== Clock Section ==========
  */
 .m-clock {
 	font-size: 128px;
@@ -24,7 +25,8 @@
 	text-shadow:2px 2px 3px rgba(150,150,150,0.75);
 	border-radius: 25px;
 	color: white;
-	opacity: 0.75;
+	opacity: 1;
+  position: relative;
 }
 
 .m-date {
@@ -37,4 +39,55 @@
 	color: white;
 	text-align: center;
 	text-shadow: 1px 1px 2px black;
+}
+
+/*
+ * ========== Search Bar ==========
+ */
+
+ body{
+  font-family: 'Montserrat', sans-serif;
+}
+ 
+ .search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid grey;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: grey;
+}
+
+.searchTerm:focus{
+  color: grey;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 80px;
+  height: 36px;
+  border: 2px solid grey;
+  background: Gainsboro ;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

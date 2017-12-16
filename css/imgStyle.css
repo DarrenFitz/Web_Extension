@@ -30,7 +30,6 @@ body{
     margin: 25px auto;
 }
 
-
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
