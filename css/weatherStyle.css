@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.weather{
+  background: grey;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  background-color:rgba(212,212,212,.2);
+  position: absolute;
+  color: white;
+  width: 200px;
+  top: 0px;
+  right: 0px;
+  text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+}
+
+h1 {
+  color: white;
+}
+
+
+
+.city{
+  position: center;
+  text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+}
+
+.temp_unit{
+  margin: 0 auto
+
+}
+
+.temp{
+  font-size:24px;
+  margin: 0 auto
+}
+
+.temp-unit{
+  position: center;
+  font-size:24px;
+  text-shadow:2px 2px 3px rgba(150,150,150,0.75);
+}

@@ -16,5 +16,10 @@
 "newtab": "src/override/override.html"
 },
 
-"permissions": [ "https://source.unsplash.com/","http://quotes.rest/"]
+"permissions": [
+  "https://source.unsplash.com/",
+  "http://quotes.rest/",
+  "https://api.openweathermap.org/data/2.5/weather?",
+  "geolocation"
+]
 }

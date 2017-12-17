@@ -6,6 +6,7 @@
 <link href="../../css/imgStyle.css" rel="stylesheet" />
 <link href="../../css/clockStyle.css" rel="stylesheet" />
 <link href="../../css/quoteStyle.css" rel="stylesheet" />
+<link href="../../css/weatherStyle.css" rel="stylesheet" />
 </head>
 <body>
   <!--Background Image-->
@@ -14,8 +15,8 @@
 	</div>
   <!--Quote of the day-->
   <div class="quote">
-     <h2 id="quoteblock"></h2>
-     <h3 id="author"></h3>
+     <h2 class="qblock" id="quoteblock"></h2>
+     <h3 class="qauthor" id="author"></h3>
   </div>
   <!--Clock Display-->
   <div class="m-clock">
@@ -28,14 +29,30 @@
    <div class="wrap">
    <div class="search">
    <form method="get" action="http://www.google.com/search" target="_top">
+     <div class="bar">
       <input type="text" name="q" class="searchTerm" value="" <textarea placeholder="What are you looking for?"></textarea>
-      <input type="submit" value="Search" class="searchButton">
-     </button>
+    </div>
+      <input type="submit" name="s" value="Search" class="searchButton">
+    </form>
    </div>
-</div>
+   </div>
+   <!--Weather-->
+   <div class="weather">
+       <!--<h1 class="app-header">Weather</h1>-->
+        <h2 class="city">Loading...</h2>
+        <img src="" alt="" class="icon "/>
+        <span class="temp"></span>
+        <span class="temp-unit" >&deg;C</span>
+        <h3 class="sky"></h3>
+
+       <button id="js-toggle-unit" class="btn btn-primary">Fahrenheit</button>
+   </div>
+
+
 
 <script src="../../js/jquery/jquery.min.js"></script>
 <script src="../../js/script.js"></script>
+<script src="../../js/weather.js"></script>
 <script src="../../js/clock.js"></script>
 </body>
 </html>

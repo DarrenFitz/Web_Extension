@@ -13,12 +13,12 @@ color:#fff;
 text-shadow:2px 2px 3px rgba(150,150,150,0.75);
 }
 
-h2:before, h2:after {
+.qblock:before, .qblock:after {
 	content: ' " ';
 	/*font-size: 2.5em, 100%;*/
 }
 
-h3{
+.qauthor{
 font-family: 'Montserrat', sans-serif;
 font-size: 1em;
 text-align:right;
