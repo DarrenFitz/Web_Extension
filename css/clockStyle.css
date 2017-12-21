@@ -6,7 +6,6 @@
 	font-size: 128px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
-
 	transition: background 0.4s ease;
 	text-align: center;
 	padding: 0 22px 4px;
@@ -49,13 +48,16 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+
  .search {
+	 top: 50%;
   width: 100%;
-  position: relative
+  position: fixed;
+  top: 0px;
 }
 
 ::-webkit-input-placeholder {
-  color: white;
+  color: grey;
 }
 
 .submit{
@@ -63,23 +65,24 @@
 }
 
 .searchTerm {
+	
   float: left;
   width: 100%;
-	color: grey;
+  color: grey;
   border: 3px solid grey;
   padding: 5px;
   height: 20px;
   border-radius: 5px;
   outline: none;
-	background-color:rgba(255,255,255,.3);
+  background-color:rgba(255,255,255,1);
 }
 
 .searchTerm:focus{
-  color: white;
+  color: grey;
 }
 
 .searchButton {
-  position: absolute;
+  position: fixed;
   right: -100px;
   width: 80px;
   height: 36px;

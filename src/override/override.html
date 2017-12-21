@@ -7,6 +7,7 @@
 <link href="../../css/clockStyle.css" rel="stylesheet" />
 <link href="../../css/quoteStyle.css" rel="stylesheet" />
 <link href="../../css/weatherStyle.css" rel="stylesheet" />
+<link href="../../css/switch.css" rel="stylesheet" />
 </head>
 <body>
   <!--Background Image-->
@@ -38,17 +39,20 @@
    </div>
    <!--Weather-->
    <div class="weather">
-       <!--<h1 class="app-header">Weather</h1>-->
         <h2 class="city">Loading...</h2>
         <img src="" alt="" class="icon "/>
         <span class="temp"></span>
         <span class="temp-unit" >&deg;C</span>
-        <h3 class="sky"></h3>
+        <h2 class="sky"></h2>
+		
+		<text class="deg">&deg;C </text>
+		<label class="switch">
 
-       <button id="js-toggle-unit" class="btn btn-primary">Fahrenheit</button>
+		   <input id="js-toggle-unit" class="btn btn-primary" type="checkbox">
+		   <span class="slider round"></span>
+	    </label>
+		<text class="deg"> F</text>
    </div>
-
-
 
 <script src="../../js/jquery/jquery.min.js"></script>
 <script src="../../js/script.js"></script>

@@ -9,5 +9,4 @@ $(function(){
     var author = $("#author");// id of author
     author.text(the_quote.contents.quotes[0].author);
   });
-
 });
